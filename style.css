@@ -18,17 +18,41 @@
 
     h1 {
       font-size: 2.5em;
+      font-weight: 700;
+      letter-spacing: 1px;/* Espaçamento entre letras */
+      text-transform: uppercase; /* transforma todas as letras em maiúsculas */
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      margin: 40px 0 20px;
       margin-top: 40px; /* Distancia entre h1 e logo */
       margin-bottom: 30px;
       text-align: center;
-      color: white;
+      color: #ffffff;
       grid-column: 1/-1;
     }
 
-    p {
-      font-size: 1.2em;
+    h2{
+      font-size: 1.3em;
+      color: #ff4b4b;
+      margin-top: 15px;
       margin-bottom: 40px;
-      color: #ccc;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .normal-case{
+      text-transform: none;
+      color: white;
+      font-size: 1.8em;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1em;
+      color: #cccccc;
+      line-height: 1.6;
+      margin: 0 0 20px;
+      text-align: left;
+      word-spacing: normal;
     }
 
     .cta-button {
@@ -52,11 +76,15 @@
       border-radius: 10px;
       text-align: center;
       box-shadow: 0 0 10px #00000050;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
     }
 
     .produto img {
-      /*width: 300px;
-      height: 200px;*/
+      
+      
       object-fit: cover;
       border-radius: 5px;
       background-color: #000000;
