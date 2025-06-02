@@ -6,14 +6,13 @@
       text-align: center;
     }
 
-    header {
-      padding: 60px 20px 20px; /* Centralização */
-    }
+   header{
+    
+   }
 
     .logo {
       width: 350px; 
       height: normal;
-      
     }
 
     h1 {
@@ -65,6 +64,7 @@
       border-radius: 5px;
       cursor: pointer;
       transition: background 0.3s ease;
+      margin-bottom: 30px;
     }
 
     .cta-button:hover {
@@ -84,21 +84,32 @@
     }
 
     .produto img {
-      
-      
       object-fit: cover;
       border-radius: 5px;
       background-color: #000000;
-
     }
 /* Define a area que contem cada produto */
     .container{
-      
       display: grid; /* ativa o sistema de grid*/
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));/* Cria colunas automaticas */
       gap: 30px; /* espaçamento entre os produtos */
       padding: 20px;/* Espaço interno dentro dos containers */
       max-width: 1000px; /* Largura máxima da grade */
       margin: 0 auto;
-      
     }
+
+    #rodape_pagina_01{
+      height: 40px;
+      background-color: rgb(56, 56, 56);
+    }
+
+    #div_pagina_01{
+      margin-top: 10px;
+     
+    }
+
+   #a_pagina01{
+    background-color: rgb(255, 0, 0);
+    margin-left: 800px;
+    color: #000000;
+   }
