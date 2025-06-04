@@ -6,10 +6,6 @@
       text-align: center;
     }
 
-   header{
-    
-   }
-
     .logo {
       width: 350px; 
       height: normal;
@@ -111,5 +107,8 @@
    #a_pagina01{
     background-color: rgb(255, 0, 0);
     margin-left: 800px;
-    color: #000000;
+    color: #f5efef;
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 2px;
    }
