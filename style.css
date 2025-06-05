@@ -1,4 +1,4 @@
-/* === Reset básico === */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-/* === Estilo do logo === */
+/* Estilo do logo  */
 .logo {
   width: 350px;
   max-width: 90%;
@@ -16,7 +16,7 @@ body {
   display: block;
 }
 
-/* === Cabeçalhos === */
+/* Cabeçalhos */
 h1 {
   font-size: 2.5em;
   font-weight: 700;
@@ -43,7 +43,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* === Parágrafos === */
+/*  Parágrafos */
 p {
   font-size: 1.1em;
   line-height: 1.6;
@@ -53,7 +53,7 @@ p {
   padding: 0 10px;
 }
 
-/* === Botão destaque === */
+/*  Botão destaque  */
 .cta-button {
   padding: 15px 30px;
   font-size: 1em;
@@ -74,7 +74,7 @@ p {
   text-decoration: none;
 }
 
-/* === Container de produtos === */
+/* Container de produtos */
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -102,14 +102,14 @@ p {
   border-radius: 5px;
 }
 
-/* === Estilo para a página inicial === */
+/*  Estilo para a página inicial */
 .home-main {
   padding: 30px 20px;
 }
 
-/* === Rodapé === */
+/* Rodapé */
 footer {
-  background-color: #111;
+  background-color: rgb(26, 25, 25);
   padding: 30px 20px;
   margin-top: 40px;
   text-align: center;
